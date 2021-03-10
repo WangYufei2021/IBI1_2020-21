@@ -1,7 +1,6 @@
 Not everything went on well.
-:(
+I am not familiar with the use of Branch and Merge. I also don't know why Merge Conflicts appeared.
 When VPN is on, ZJE server cannot be logged in. 
 TA said that VPN is not necessary for using Github, but we cannot make it.
 There are so many students in class, sometimes it is hard to use server.
 The command "clone" and "push" are very difficult to use. Terminal always tells us "timed out".
-
