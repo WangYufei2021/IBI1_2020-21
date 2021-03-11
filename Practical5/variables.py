@@ -6,9 +6,18 @@ d = abs(a-c)
 e = abs(a-b)
 print ("d = ", d)
 print ("e = ", e)
-print("d >= e? ", d >= e)
+if d > e:
+    print ("d > e")
+elif d < e:
+    print ("d < e")
+else:
+    print ("d = e")
+    
 
 # Booleans
+# either X or Y is true
+# Z encodes “(X and not Y) or (Y and not X)
+# Prove Z is true
 X = False 
 Y = True
 Z = ( X and not Y) or (Y and not X)
@@ -20,28 +29,27 @@ Z = ( X and not Y) or (Y and not X)
 print ("X = True    Y = False   Z = ", Z)
 
 
-
 # Make a variable W that encodes Zhiwen’s more elegant solution (“X !=Y”)
 X = False 
 Y = True
 Z = ( X and not Y) or (Y and not X)
 W = X != Y
-print ("X = False    Y = True     W = Z? ",  W == Z)
+print ("When X = False    Y = True     W and Z are the same: ",  W == Z)
 
 X = False 
 Y = False
 Z = ( X and not Y) or (Y and not X)
 W = X != Y
-print ("X = False   Y = False     W = Z?",  W == Z)
+print ("When X = False   Y = False     W and Z are the same: ",  W == Z)
 
 X = True
 Y = True
 Z = ( X and not Y) or (Y and not X)
 W = X != Y
-print ("X = True     Y = True     W = Z?",  W == Z)
+print ("When X = True     Y = True     W and Z are the same: ",  W == Z)
 
 X = True
 Y = False
 Z = ( X and not Y) or (Y and not X)
 W = X != Y
-print ("X = True    Y = False     W = Z?",  W == Z)
+print ("When X = True    Y = False     W and Z are the same: ",  W == Z)
