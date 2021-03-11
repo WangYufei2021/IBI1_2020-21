@@ -5,7 +5,7 @@ print ("1 place: ",a)
 
 # Name the second number b and assign it 1
 b = 1
-#  Output the second number 
+# Output the second number 
 print ("2 place: ", b)
 
 # Use a for loop to define fibonacci
