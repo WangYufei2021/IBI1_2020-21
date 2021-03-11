@@ -28,6 +28,7 @@ Y = False
 Z = ( X and not Y) or (Y and not X)
 print ("X = True    Y = False   Z = ", Z)
 
+
 # Make a variable W that encodes Zhiwen’s more elegant solution (“X !=Y”)
 X = False 
 Y = True
