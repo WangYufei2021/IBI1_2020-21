@@ -13,4 +13,4 @@ for i in range (1,6):
 
 # Output r and the number of infectors
 # r should be described as defined
-print("When r(the rate of reproduction of COVID-19) is ",r, ", ",  "The total number of individuals infected after 5 generations is ", str(n))
+print("When r(the rate of reproduction of COVID-19) is ",str(r), ", ",  "The total number of individuals infected after 5 generations is ", str(n))

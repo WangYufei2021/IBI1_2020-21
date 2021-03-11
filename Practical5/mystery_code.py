@@ -1,7 +1,7 @@
 # What does this piece of code do?
 # Answer: Draw a random number between 1 and 100.
-              # If the number is bigger than 50, then draw another random number between 1 and 100 until the number is smaller than 50.
-              # Print the number(smaller than 50).
+              # If the number is bigger than 50, then draw another random number between 1 and 100 until the number is smaller than or equals to 50.
+              # Print the number(smaller than or equals to 50).
               # End the instructions.
 
 # Import libraries
